@@ -1,5 +1,5 @@
 puts "Give me a word, any word:"
-word = gets.chomp
+word = gets.chomp.upcase
 num = 0
 
 while num != word.length + 1
